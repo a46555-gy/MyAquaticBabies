@@ -61,6 +61,7 @@ public class DragDropManager : MonoBehaviour, IPointerDownHandler, IBeginDragHan
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
         endDragged = true;
+        //test
     }
 
     public void returnToStart()
