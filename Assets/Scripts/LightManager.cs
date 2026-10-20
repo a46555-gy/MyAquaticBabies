@@ -6,14 +6,12 @@ public class LightManager : MonoBehaviour
 {
     public Sprite ogSprite;
     public Sprite newSprite;
-    
-    public Color ogBgColor = Color.teal;
-    public Color newBgColor = Color.black;
 
     private SpriteRenderer spriteRenderer;
     private Camera mainCamera;
     public bool isToggled = false;
     private Collider2D myCollider;
+    public GameObject darkBg;
     
     InputAction leftMouse;
     void Start()
@@ -27,11 +25,12 @@ public class LightManager : MonoBehaviour
         {
             spriteRenderer.sprite = ogSprite;
         }
-    
-        if (mainCamera != null)
+        
+        if (darkBg != null)
         {
-            mainCamera.backgroundColor = ogBgColor;
+            darkBg.SetActive(false);
         }
+        
     }
     
     void Update()
@@ -62,9 +61,9 @@ public class LightManager : MonoBehaviour
             {
                 spriteRenderer.sprite = newSprite;
             }
-            if (mainCamera != null)
+            if (darkBg != null)
             {
-                mainCamera.backgroundColor = newBgColor;
+                darkBg.SetActive(true);
             }
         }
         else
@@ -73,10 +72,11 @@ public class LightManager : MonoBehaviour
             {
                 spriteRenderer.sprite = ogSprite;
             }
-            if (mainCamera != null)
+            if (darkBg != null)
             {
-                mainCamera.backgroundColor = ogBgColor;
+                darkBg.SetActive(false);
             }
+            
         }
     }
 

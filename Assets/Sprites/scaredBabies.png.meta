@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: b119b03cc42e1074792228cf17e7ca48
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6581255430398943267
+    second: scaredBabies_0
+  - first:
+      213: 4750857333615576116
+    second: scaredBabies_1
+  - first:
+      213: 8985242239045378568
+    second: scaredBabies_2
+  - first:
+      213: 7794635091425402426
+    second: scaredBabies_3
+  - first:
+      213: 8755406316045434842
+    second: scaredBabies_4
+  - first:
+      213: -7334472102175760683
+    second: scaredBabies_5
+  - first:
+      213: -2711877999778375623
+    second: scaredBabies_6
+  - first:
+      213: -2024099005281007669
+    second: scaredBabies_7
+  - first:
+      213: 5568814219279889488
+    second: scaredBabies_8
+  - first:
+      213: 613524184236768086
+    second: scaredBabies_9
+  - first:
+      213: 1283954728596754468
+    second: scaredBabies_10
+  - first:
+      213: 1348688039249923932
+    second: scaredBabies_11
+  - first:
+      213: 5050264503763959481
+    second: scaredBabies_12
+  - first:
+      213: -2411113318987513728
+    second: scaredBabies_13
+  - first:
+      213: 900386670467422214
+    second: scaredBabies_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scaredBabies_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 211
+        width: 322
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3202a09e1f0555b50800000000000000
+      internalID: 6581255430398943267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 721
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43447b4e29f6ee140800000000000000
+      internalID: 4750857333615576116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 723
+        width: 74
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802a227e53ef1bc70800000000000000
+      internalID: 8985242239045378568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_3
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 443
+        width: 35
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e9432615b1c2c60800000000000000
+      internalID: 7794635091425402426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 250
+        width: 462
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf791408a3718970800000000000000
+      internalID: 8755406316045434842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_5
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 501
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de1dc69b78b63a90800000000000000
+      internalID: -7334472102175760683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_6
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 283
+        width: 318
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938530dc3597d5ad0800000000000000
+      internalID: -2711877999778375623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 436
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc70108cda4f8e3e0800000000000000
+      internalID: -2024099005281007669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 421
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05472501707684d40800000000000000
+      internalID: 5568814219279889488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 390
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b3b86befca38800800000000000000
+      internalID: 613524184236768086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 206
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42051b1e50681d110800000000000000
+      internalID: 1283954728596754468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_11
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 232
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f4f4440a087b210800000000000000
+      internalID: 1348688039249923932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 239
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be7d980fc4261640800000000000000
+      internalID: 5050264503763959481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 194
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080498406310a8ed0800000000000000
+      internalID: -2411113318987513728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredBabies_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 202
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60815b508e0de7c00800000000000000
+      internalID: 900386670467422214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      scaredBabies_0: 6581255430398943267
+      scaredBabies_1: 4750857333615576116
+      scaredBabies_10: 1283954728596754468
+      scaredBabies_11: 1348688039249923932
+      scaredBabies_12: 5050264503763959481
+      scaredBabies_13: -2411113318987513728
+      scaredBabies_14: 900386670467422214
+      scaredBabies_2: 8985242239045378568
+      scaredBabies_3: 7794635091425402426
+      scaredBabies_4: 8755406316045434842
+      scaredBabies_5: -7334472102175760683
+      scaredBabies_6: -2711877999778375623
+      scaredBabies_7: -2024099005281007669
+      scaredBabies_8: 5568814219279889488
+      scaredBabies_9: 613524184236768086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

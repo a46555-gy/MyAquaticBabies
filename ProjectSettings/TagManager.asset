@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 3
   tags:
   - Food
+  - shake
+  - Creature
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Creature
   - Water
   - UI
   - 
@@ -39,14 +41,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
+  - name: Background
+    uniqueID: 2506604003
+    locked: 0
+  - name: Aquarium
+    uniqueID: 1001328603
+    locked: 0
+  - name: Baby
+    uniqueID: 112458833
     locked: 0
   - name: Stats
     uniqueID: 1731571859
     locked: 0
-  - name: Baby
-    uniqueID: 112458833
+  - name: Default
+    uniqueID: 0
     locked: 0
   m_RenderingLayers:
   - Default

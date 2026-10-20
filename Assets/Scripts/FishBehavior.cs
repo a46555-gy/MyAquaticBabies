@@ -1,114 +1,23 @@
 using UnityEngine;
 
-public class FishBehavior : MonoBehaviour
+public class FishBehavior : CreatureBehavior
 {
-    public float maxFullness = 20f; 
-    float fullnessVal;
+    public bool spriteFacesRight = true;
 
-    float needsTime;
-    public float needsTimeReset;
-    public float needsTimeStep;
-
-    public GameManager myManager;
-    public BarManager barManager;
-    public LightManager lightManager;
-
-    Vector3 targetPos;
-    bool moving;
-    
-    private SpriteRenderer spriteRenderer;
-    public Sprite sleepSprite;
-    public Sprite ogSprite;
-    
-
-    void Start()
+    protected override void OnMoved(Vector3 delta)
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        fullnessVal = maxFullness;
-        needsTime = needsTimeReset;
-        barManager.SetHunger(fullnessVal, maxFullness);
-    }
-
-    void Update()
-    {
-        needsTime -= needsTimeStep * Time.deltaTime;
-        if (needsTime < 0)
+        if (Mathf.Abs(delta.x) < 0.0001f)
         {
-            IncrementNeeds();
-        }
-        if (moving)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, 2f * Time.deltaTime);
+            return;
         }
 
-        if (lightManager.isToggled)
+        if (spriteFacesRight)
         {
-            spriteRenderer.sprite = sleepSprite;
+            spriteRenderer.flipX = delta.x < 0f;
         }
         else
         {
-            spriteRenderer.sprite = ogSprite;
-        }
-    }
-
-    void IncrementNeeds()
-    {
-        fullnessVal = Mathf.Max(fullnessVal - 1f, 0f);
-        needsTime = needsTimeReset;
-        barManager.SetHunger(fullnessVal, maxFullness);
-
-        if (fullnessVal <= 10)
-        {
-            findFood();
-        }
-
-        if (fullnessVal <= 5)
-        {
-            barManager.Damage(20);
-            barManager.cheerDown(80);
-        }
-        else
-        {
-            barManager.Heal(40);
-            barManager.cheerUp(40);
-        }
-
-        if (spriteRenderer.sprite == sleepSprite)
-        {
-            barManager.Heal(25);
-        }
-    }
-
-    void findFood()
-    {
-        float dist = float.MaxValue;
-        GameObject closestFood = null;
-        foreach (GameObject food in myManager.allFoods)
-        {
-            float d = Vector3.Distance(transform.position, food.transform.position);
-            if (d < dist)
-            {
-                dist = d;
-                closestFood = food;
-            }
-        }
-
-        if (closestFood != null)
-        {
-            targetPos = closestFood.transform.position;
-            moving = true;
-        }
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Food"))
-        {
-            myManager.DestroyFood(collision.gameObject);
-            fullnessVal = Mathf.Min(fullnessVal + 4f, maxFullness);
-            moving = false;
-            barManager.SetHunger(fullnessVal, maxFullness);
-            barManager.Heal(40);
+            spriteRenderer.flipX = delta.x > 0f;
         }
     }
 }
