@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Required for switching scenes
+using UnityEngine.SceneManagement; 
 
 public class TitleScreen : MonoBehaviour
 {

@@ -28,7 +28,7 @@ public class ButtonManager : MonoBehaviour
     public bool isCleaning;
     
     public static bool IsCleaning { get; private set; } 
-    public static Vector2 FingerWorldPosition { get; private set; }   // <-- add
+    public static Vector2 FingerWorldPosition { get; private set; }  
 
     public Transform fingerTip;
 

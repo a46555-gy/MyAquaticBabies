@@ -13,7 +13,6 @@ public class ShakeManager : MonoBehaviour
     public GameObject hands;
 
     public bool handActive = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         if (hands != null)
@@ -24,7 +23,6 @@ public class ShakeManager : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (start)
